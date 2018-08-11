@@ -16,6 +16,16 @@ class Content extends Component {
                 <h2 className="display-4">{this.props.title}</h2>
                 <p>{this.props.noidung}</p>
                 <a href={this.props.facebook}>Facebook</a>
+                <div className="col-12">
+                  <div className="btn btn-group">
+                    <button type="button" className="btn btn-info no-border-radius mgr-25">
+                      Xem thông tin
+                    </button>
+                    <button type="button" className="btn btn-danger no-border-radius">
+                      Xóa thông tin
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

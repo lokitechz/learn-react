@@ -26,3 +26,10 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.mgr-25 {
+  margin-right: 10px;
+}
+.no-border-radius {
+  border-radius: 0;
+}
